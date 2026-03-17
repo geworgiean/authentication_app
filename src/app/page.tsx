@@ -18,10 +18,10 @@ export default function HomePage() {
           </p>
           
           <div className="flex gap-4 justify-center">
-            <Link href="/login" className="text-lg text-blue-950 hover:text-sky-50 font-medium px-6 py-2 hover:bg-gray-700 transition shadow-lg rounded-3xl">
+            <Link href="/login" className="text-lg text-blue-950 hover:text-white font-semibold px-6 py-2 hover:bg-gray-700 transition shadow-lg rounded-3xl">
               Մուտք
             </Link>
-            <Link href="/register" className="bg-blue-600 text-white px-6 py-3 rounded-3xl hover:bg-blue-700 transition shadow-lg">
+            <Link href="/register" className="bg-blue-950 text-white px-6 py-3 rounded-3xl hover:bg-gray-700 transition shadow-lg font-semibold">
               Գրանցվել հիմա
             </Link>
           </div>

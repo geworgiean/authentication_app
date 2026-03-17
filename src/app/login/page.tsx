@@ -56,7 +56,7 @@ export default function LoginPage() {
             <input 
               type="email" 
               placeholder="user@example.com" 
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-600 transition"
+              className="w-full px-4 py-3 border border-gray-400 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-950 focus:border-blue-950 transition"
               onChange={(e) => setEmail(e.target.value)}
               required 
             />
@@ -68,7 +68,7 @@ export default function LoginPage() {
             <input 
               type="password" 
               placeholder="********" 
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition"
+              className="w-full px-4 py-3 border border-gray-400 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-950 focus:border-blue-950 transition"
               onChange={(e) => setPassword(e.target.value)}
               required 
             />
@@ -76,7 +76,7 @@ export default function LoginPage() {
           <button 
             type="submit" 
             disabled={loading}
-            className={`w-full bg-blue-600 text-white py-3 rounded-lg font-semibold transition duration-300 shadow-md hover:shadow-lg active:scale-[0.98] ${loading ? 'opacity-70 cursor-not-allowed' : 'hover:bg-blue-800'}`}
+            className={`w-full bg-blue-700 text-white py-3 rounded-lg font-semibold transition duration-300 shadow-md hover:shadow-lg active:scale-[0.98] ${loading ? 'opacity-70 cursor-not-allowed' : 'hover:bg-blue-950'}`}
           >
             {loading ? 'Մուտք է գործվում...' : 'Մուտք գործել'}
           </button>
@@ -85,7 +85,7 @@ export default function LoginPage() {
         <div className="mt-8 text-center border-t border-gray-100 pt-6">
           <p className="text-sm text-gray-600">
             Չունե՞ք հաշիվ:{" "}
-            <Link href="/register" className="text-blue-600 hover:text-blue-800 hover:underline font-semibold transition">
+            <Link href="/register" className="text-blue-800 hover:text-blue-950 hover:underline font-semibold transition">
               Գրանցվել
             </Link>
           </p>

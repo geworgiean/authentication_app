@@ -22,7 +22,7 @@ export default function RegisterPage() {
               type="email" 
               placeholder="user@example.com" 
               required 
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition"
+              className="w-full px-4 py-3 border border-gray-400 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-950 focus:border-blue-950 transition"
             />
           </div>
 
@@ -35,13 +35,13 @@ export default function RegisterPage() {
               type="password" 
               placeholder="********" 
               required 
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition"
+              className="w-full px-4 py-3 border border-gray-400 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-950 focus:border-blue-950 transition"
             />
           </div>
 
           <button 
             type="submit" 
-            className="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition duration-300 shadow-md hover:shadow-lg active:scale-[0.98]"
+            className="w-full bg-blue-800 text-white py-3 rounded-lg font-semibold hover:bg-blue-950 transition duration-300 shadow-md hover:shadow-lg active:scale-[0.98]"
           >
             Գրանցվել
           </button>
@@ -50,7 +50,7 @@ export default function RegisterPage() {
         <div className="mt-8 text-center border-t border-gray-100 pt-6">
           <p className="text-sm text-gray-600">
             Արդեն ունե՞ք հաշիվ:{" "}
-            <Link href="/login" className="text-blue-600 hover:text-blue-800 hover:underline font-semibold transition">
+            <Link href="/login" className="text-blue-800 hover:text-blue-950 hover:underline font-semibold transition">
               Մուտք գործել
             </Link>
           </p>
